@@ -1,7 +1,8 @@
 # Waterfill
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Determine how much water could fill a set of columns with void on either side.
+
+![Screenshot](https://raw.githubusercontent.com/bargar/waterfill/master/screenshot.png)
 
 ## Prerequisites
 
