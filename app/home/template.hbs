@@ -4,9 +4,9 @@ histogram data:
 <button {{action 'randomize'}}>Random</button>
 
 <hr>
-max: {{max}}<br>
-waterfill by level: {{waterfill}} (starting at max and going down)<br>
-total waterfill: {{waterfillTotal}}
+height level: {{max}}<br>
+waterfill by level: {{waterfillByLevel}} (starting at max and going down)<br>
+<h3>total waterfill: {{waterfill}}</h3>
 
 {{#each styleDimensions as |dimension index|}}
   <div style="text-align: center; position: absolute; bottom: 100px; left: {{dimension.left}}px; display: inline-block; background-color: olivedrab; height: {{dimension.height}}px; width: 100px;">
