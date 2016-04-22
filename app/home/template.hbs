@@ -1,0 +1,15 @@
+histogram data:
+[{{input type='text' value=dataString}}]
+
+<button {{action 'randomize'}}>Random</button>
+
+<hr>
+max: {{max}}<br>
+waterfill by level: {{waterfill}} (starting at max and going down)<br>
+total waterfill: {{waterfillTotal}}
+
+{{#each styleDimensions as |dimension index|}}
+  <div style="text-align: center; position: absolute; bottom: 100px; left: {{dimension.left}}px; display: inline-block; background-color: olivedrab; height: {{dimension.height}}px; width: 100px;">
+    <b>{{dimension.value}}</b>
+  </div>
+{{/each}}
